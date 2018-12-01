@@ -1,0 +1,25 @@
+<template>
+  <q-layout view="HHh Lpr lFf">
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+  </q-layout>
+</template>
+
+<script>
+import { openURL } from 'quasar';
+
+export default {
+  name: 'MyLayout',
+  data() {
+    return {
+    };
+  },
+  methods: {
+    openURL,
+  },
+};
+</script>
+
+<style>
+</style>
